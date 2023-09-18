@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clave de Soco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cds.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="personagem">
+        <img id="parados" src="imagens/parados.gif">
+        <img id="desvia" src="imagens/sprite_desviou.gif">
+        <img id="errou" src="imagens/sprite_errou.gif">
+        <img id="soco1" src="imagens/sprite_soco1.gif">
+        <img id="soco2" src="imagens/sprite_soco2.gif">
+        <img id="soco3" src="imagens/sprite_soco3.gif">
+        <img id="chute1" src="imagens/sprite_chute1.gif">
+        <img id="chute2" src="imagens/sprite_chute2.gif">
+        <img id="chute3" src="imagens/sprite_chute3.gif">
+    </div>
+    <div class="piano">
+        <div class="key0" id="teclaDo3">C</div>
+        <div class="black-key" id="teclaCDb3">C# Db</div>
+        <div class="key0" id="teclaRe3">D</div>
+        <div class="black-key" id="teclaDEb3">D# Eb</div>
+        <div class="key0" id="teclaMi3">E</div>
+        <div class="key0" id="teclaFa3">F</div>
+        <div class="black-key" id="teclaFGb3">F# Gb</div>
+        <div class="key0" id="teclaSol3">G</div>
+        <div class="black-key" id="teclaGAb3">G# Ab</div>
+        <div class="key0" id="teclaLa3">A</div>
+        <div class="black-key" id="teclaABb3">A# Bb</div>
+        <div class="key0" id="teclaSi3">B</div>
+
+        <div class="key" id="teclaDo4">C</div>
+        <div class="black-key" id="teclaCDb4">C# Db</div>
+        <div class="key" id="teclaRe4">D</div>
+        <div class="black-key" id="teclaDEb4">D# Eb</div>
+        <div class="key" id="teclaMi4">E</div>
+        <div class="key" id="teclaFa4">F</div>
+        <div class="black-key" id="teclaFGb4">F# Gb</div>
+        <div class="key" id="teclaSol4">G</div>
+        <div class="black-key" id="teclaGAb4">G# Ab</div>
+        <div class="key" id="teclaLa4">A</div>
+        <div class="black-key" id="teclaABb4">A# Bb</div>
+        <div class="key" id="teclaSi4">B</div>
+
+        <div class="key1" id="teclaDo5">C</div>
+        <div class="black-key" id="teclaCDb5">C# Db</div>
+        <div class="key1" id="teclaRe5">D</div>
+        <div class="black-key" id="teclaDEb5">D# Eb</div>
+        <div class="key1" id="teclaMi5">E</div>
+        <div class="key1" id="teclaFa5">F</div>
+        <div class="black-key" id="teclaFGb5">F# Gb</div>
+        <div class="key1" id="teclaSol5">G</div>
+        <div class="black-key" id="teclaGAb5">G# Ab</div>
+        <div class="key1" id="teclaLa5">A</div>
+        <div class="black-key" id="teclaABb5">A# Bb</div>
+        <div class="key1" id="teclaSi5">B</div>
+
+    </div>
+    <div class="audios"> 
+        <audio id="notaLa3" src="sons/3/a3.mp3"></audio>
+        <audio id="notaGAb3" src="sons/3/Ab_G3.mp3"></audio>
+        <audio id="notaSi3" src="sons/3/b3.mp3"></audio>
+        <audio id="notaABb3" src="sons/3/Bb_A3.mp3"></audio>
+        <audio id="notaDo3" src="sons/3/c3.mp3"></audio>
+        <audio id="notaRe3" src="sons/3/d3.mp3"></audio>
+        <audio id="notaCDb3" src="sons/3/Db_C3.mp3"></audio>
+        <audio id="notaMi3" src="sons/3/e3.mp3"></audio>
+        <audio id="notaDEb3" src="sons/3/Eb_D3.mp3"></audio>
+        <audio id="notaFa3" src="sons/3/f3.mp3"></audio>
+        <audio id="notaSol3" src="sons/3/g3.mp3"></audio>
+        <audio id="notaFGb3" src="sons/3/Gb_F3.mp3"></audio>
+    
+        <audio id="notaLa4" src="sons/4/a4.mp3"></audio>
+        <audio id="notaGAb4" src="sons/4/Ab_G4.mp3"></audio>
+        <audio id="notaSi4" src="sons/4/b4.mp3"></audio>
+        <audio id="notaABb4" src="sons/4/Bb_A4.mp3"></audio>
+        <audio id="notaDo4" src="sons/4/c4.mp3"></audio>
+        <audio id="notaRe4" src="sons/4/d4.mp3"></audio>
+        <audio id="notaCDb4" src="sons/4/Db_C4.mp3"></audio>
+        <audio id="notaMi4" src="sons/4/e4.mp3"></audio>
+        <audio id="notaDEb4" src="sons/4/Eb_D4.mp3"></audio>
+        <audio id="notaFa4" src="sons/4/f4.mp3"></audio>
+        <audio id="notaSol4" src="sons/4/g4.mp3"></audio>
+        <audio id="notaFGb4" src="sons/4/Gb_F4.mp3"></audio>
+
+        <audio id="notaLa5" src="sons/5/a5.mp3"></audio>
+        <audio id="notaGAb5" src="sons/5/Ab_G5.mp3"></audio>
+        <audio id="notaSi5" src="sons/5/b5.mp3"></audio>
+        <audio id="notaABb5" src="sons/5/Bb_A5.mp3"></audio>
+        <audio id="notaDo5" src="sons/5/c5.mp3"></audio>
+        <audio id="notaRe5" src="sons/5/d5.mp3"></audio>
+        <audio id="notaCDb5" src="sons/5/Db_C5.mp3"></audio>
+        <audio id="notaMi5" src="sons/5/e5.mp3"></audio>
+        <audio id="notaDEb5" src="sons/5/Eb_D5.mp3"></audio>
+        <audio id="notaFa5" src="sons/5/f5.mp3"></audio>
+        <audio id="notaSol5" src="sons/5/g5.mp3"></audio>
+        <audio id="notaFGb5" src="sons/5/Gb_F5.mp3"></audio>
+
+        <audio id="desviando" src="sons/luta/dodge.mp3"></audio>
+        <audio id="chutando" src="sons/luta/kick.mp3"></audio>
+        <audio id="socando" src="sons/luta/punch.mp3"></audio>
+        <audio id="apanhando" src="sons/luta/hit.mp3"></audio>
+
+    </div>
+    <script src="piano.js"></script>
+</body>
+</html>
